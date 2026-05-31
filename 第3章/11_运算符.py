@@ -42,7 +42,9 @@ print(type(a-b),a,a-b)
 print(type(a*b),a,a*b)
 print(7>True)#True
 print(8+False)#8
+print(type(a+b),a+b)#<class 'int'> 1
 '''
+bool类型数据运算之后结果是int类型的数字
 <class 'bool'> True
 <class 'bool'> False
 <class 'int'> True 1
@@ -66,6 +68,7 @@ print(7>5 and False)#False
 
 #and具备逻辑短路的能力,直接判断到False,不执行后面的内容
 print(False and 5/0)#False
+print(False and True)#False
 
 
 

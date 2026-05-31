@@ -29,7 +29,7 @@ print(result8)#79
 print(int('7 9'))
 print(int('你好'))
 print(int('79个'))
-print(int('15.6'))
+print(int('15.6'))，但是print(int(15.6))是正确的
 '''
 
 #同理，使用float()可以将数据类型转换为浮点型
